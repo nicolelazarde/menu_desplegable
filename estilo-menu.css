@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+body {
+  margin: 8px;}
+
+
+.header-principal {
+    width: 100%;
+}
+
+.header-secundario {
+    width: 100%;
+}
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.logo{
+  font-size: 2em;
+  font-weight: 100;
+  font-family: sans-serif;
+  width: 150px;
+
+}
+
+.logo-link {
+    text-decoration: none;
+    color: black;
+}    
+
+.logo-link:hover{
+    color: yellow;
+}
+
+.nav-principal{
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+    background-color: ;
+}
+
+.icon-menu{
+    display: block;
+    width: 40px;
+    height: 40px;
+    color: black;
+    border: 1.5px solid yellow;
+    border-radius: 5px;
+    font-size: 1.5em;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+.icon-menu:hover{
+	color: yellow;
+}
+
+.menu{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    background: yellow;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    height: 0; /* no puedo cambiarlo de 0 porque sino el menu no se retrae*/
+    overflow: hidden;
+    transition: height .3s linear;
+    font-family: sans-serif;
+}
+
+
+.menu:hover {
+    color: black;
+    
+}
+
+.menu-link{
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+    background: ;
+}
+
+.mostrar{ /* No borrar es parte del scrip menu.js. 
+	Este mostrar permite que la pantalla se despliege*/
+    height: 196px; 
+}
+
+@media screen {
+	
+}
